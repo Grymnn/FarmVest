@@ -1,0 +1,59 @@
+.decor {
+  width: 100%;
+  position: relative;
+}
+
+@function decor-left($n) {
+  @return calc(($n * 100%) / 1920px);
+}
+
+.ellipse-1 {
+  position: absolute;
+  left: decor-left(150px);
+  top: -125px;
+  transform: translate(-45%, -65%);
+}
+
+.ellipse-2 {
+  position: absolute;
+  left: decor-left(90px);
+  top: -85px;
+  transform: translate(-45%, -65%);
+}
+
+.decor-1 {
+  position: absolute;
+  left: decor-left(1200px);
+  top: -95px;
+}  
+.decor-2 {
+  position: absolute;
+  left: decor-left(385px);
+  top: 130px;
+}
+.decor-3 {
+  position: absolute;
+  left: decor-left(1475px);
+  top: 170px;
+}
+.decor-4 {
+  position: absolute;
+  left: decor-left(1740px);
+  top: 120px;
+}
+.decor-5 {
+  position: absolute;
+  left: decor-left(150px);
+  top: 435px;
+}
+.decor-6 {
+  position: absolute;
+  left: decor-left(555px);
+  top: 510px;
+}
+.decor-7 {
+  position: absolute;
+  left: decor-left(1470px);
+  top: 525px;
+}
+

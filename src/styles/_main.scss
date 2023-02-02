@@ -1,0 +1,24 @@
+main {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-top: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    font-weight: 700;
+    font-size: 70px;
+    padding-bottom: 30px;
+  }
+  
+  span {
+    color: var(--extra-color);
+  }
+
+  p {
+    max-width: 575px;
+    line-height: 1.8;
+    padding-bottom: 45px;
+  }
+}

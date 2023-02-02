@@ -1,0 +1,39 @@
+@import 'src/styles/fonts.scss';
+
+@import 'src/styles/vars.scss';
+
+@import 'src/styles/components/reset.scss';
+
+body {
+  font-family: 'Spartan', sans-serif;
+  background-color: var(--bgc-main);
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+@import 'src/styles/components/btn.scss';
+
+@import 'src/styles/components/form.scss';
+
+@import 'src/styles/header.scss';
+
+@import 'src/styles/main.scss';
+
+@import 'src/styles/decor.scss';
+
+@import 'src/styles/invest.scss';
+
+@import 'src/styles/work.scss';
+
+@import 'src/styles/pathway.scss';
+
+@import 'src/styles/choose.scss';
+
+@import 'src/styles/customer.scss';
+
+@import 'src/styles/download.scss';
+
+@import 'src/styles/footer.scss';
+

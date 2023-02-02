@@ -1,0 +1,69 @@
+.work {
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: space-between;
+  gap: 95px;
+}
+
+.section-text {
+  width: 575px;
+  text-align: left;
+  max-width: 575px;
+  
+  h2 {
+    font-size: 64px;
+  }
+}
+
+.work-steps {
+  width: 490px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+
+  p {
+    padding: 0;
+
+    &:nth-child(odd) {
+      font-weight: 700;
+      font-size: 20px;
+      padding-bottom: 15px;
+    }
+  }
+}
+
+.steps {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.card-bg {
+  width: 750px;
+  height: 935px;
+  background-color: var(--bgc-card);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  display: grid;
+  place-items: center;
+
+  .ellipse-1 {
+    left: 730px;
+    top: 200px;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
+  .ellipse-2 {
+    left: 730px;
+    top: 270px;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  .card-img {
+    z-index: 2;
+    border-radius: 25px;
+  }
+}

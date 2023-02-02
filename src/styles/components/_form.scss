@@ -1,0 +1,26 @@
+.subscribe-form {
+  position: relative;
+  width: 535px;
+  height: 75px;
+  border-radius: 10px;
+  background-color: var(--input-bgc);
+  
+  
+  input {
+    width: 100%;
+    border: none;
+    padding: 27px 190px 27px 25px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #263238;
+    background-color: transparent;
+    outline: none;
+  }
+
+  .default-btn {
+    width: 165px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  }
+}

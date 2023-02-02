@@ -1,0 +1,43 @@
+:root[data-theme="dark"] {
+  --extra-color: #23B123;
+  --text-color: #FFFFFF;
+  --bgc-main: #263238;
+  --bgc-card: #313C42;
+  --footer-bgc: #2D393F;
+  --color-decor: var(--text-color);
+  --step-bgc: var(--bgc-card);
+  --switcher-bgc: var(--bgc-card);
+  --switcher-circle: var(--extra-color);
+  --switcher-circle-pos: 50px;
+  --ellipse-color: var(--text-color);
+  --input-bgc: var(--text-color);
+  --partner-color: #92989B;
+  --footer-icon-bgc: var(--text-color);
+  --footer-icon-color: var(--extra-color);
+}
+
+:root[data-theme="light"] {
+  --extra-color: #008000;
+  --text-color: #263238;
+  --bgc-main: #FFFFFF;
+  --bgc-card: #F2F8F2;
+  --footer-bgc: #F9FCF9;
+  --color-decor: #A8ADAF;
+  --step-bgc: #E6F3E6;       
+  --switcher-bgc: var(--input-bgc);
+  --switcher-circle: #B2D8B2;
+  --switcher-circle-pos: 3px;
+  --ellipse-color: var(--extra-color);
+  --input-bgc: #EAEBEC;
+  --partner-color: var(--text-color);
+  --footer-icon-bgc: var(--extra-color);
+  --footer-icon-color: var(--footer-bgc);
+}
+
+:root {
+  --default-transition: color .3s ease-in-out,
+  background-color .3s ease-in-out,
+  border-color .3s ease-in-out,
+  fill .3s ease-in-out,
+  transform .3s ease-in-out,
+}

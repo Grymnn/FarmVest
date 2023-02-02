@@ -1,0 +1,46 @@
+.customer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+
+  & > p {
+    max-width: 565px;
+  }
+
+  .default-btn {
+    position: unset;
+    width: 225px;
+  }
+}
+
+.customer-row {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.customer-card {
+  width: 685px;
+  height: 375px;
+  background-color: var(--bgc-card);
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+}
+
+.customer-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+
+  p {
+    text-align: left;
+    padding: 0;
+
+    &:last-child {
+      font-weight: 600;
+    }
+  }
+}
